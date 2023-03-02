@@ -32,6 +32,11 @@ header > a {
   font-weight: bold;
   cursor: pointer;
   margin-right: 20px;
+  color: black;
+}
+
+header > a:hover {
+  color: #448361;
 }
 
 main {
@@ -43,16 +48,16 @@ section {
 }
 
 ::selection {
-  background-color: #80f7b6;
+  background-color: #e2e2e2;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 20px 0;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 p {
@@ -68,4 +73,18 @@ p {
   width: 100%;
   margin-bottom: 20px;
   border: 1px solid #e2e2e2;
+}
+
+.profileSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.profileSection > h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.profileSection span {
+  margin-bottom: 10px;
 }
