@@ -98,3 +98,118 @@ p {
 .contents-wrapper > div {
   width: 60%;
 }
+
+.skill-wrapper {
+  margin-top: 20px;
+}
+
+.skill-wrapper > span {
+  padding: 6px 15px;
+  border-radius: 21px;
+  color: white;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#react {
+  color: black;
+  background: #61dafb;
+}
+
+#react:hover {
+  transition: all 0.3s;
+  background: #8be6ff;
+}
+
+#vue {
+  background: #4eb282;
+}
+
+#vue:hover {
+  transition: all 0.3s;
+  background: #60da9f;
+}
+
+#javascript {
+  color: black;
+  background: #f7df1e;
+}
+
+#javascript:hover {
+  transition: all 0.3s;
+  background: #ffed66;
+}
+
+#typescript {
+  background: #2f74c0;
+}
+
+#typescript:hover {
+  transition: all 0.3s;
+  background: #3d95f3;
+}
+
+#recoil {
+  background: #3578e5;
+}
+
+#recoil:hover {
+  transition: all 0.3s;
+  background: #5295ff;
+}
+
+#emotion {
+  background: #d36ac2;
+}
+
+#emotion:hover {
+  transition: all 0.3s;
+  background: #ff94ed;
+}
+
+#oauth {
+  background: #060606;
+}
+
+#oauth:hover {
+  transition: all 0.3s;
+  background: #3a3a3a;
+}
+
+#git {
+  background: #f05033;
+}
+
+#git:hover {
+  transition: all 0.3s;
+  background: #ff735a;
+}
+
+#jira {
+  background: #2684ff;
+}
+
+#jira:hover {
+  transition: all 0.3s;
+  background: #5da3ff;
+}
+
+#next,
+#stomp {
+  background: black;
+}
+
+#next:hover,
+#stomp:hover {
+  transition: all 0.3s;
+  background: rgba(0, 0, 0, 0.753);
+}
+
+#redux {
+  background: #7f42c3;
+}
+
+#redux:hover {
+  transition: all 0.3s;
+  background: #a357fa;
+}
