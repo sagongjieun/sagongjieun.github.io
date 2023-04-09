@@ -99,6 +99,10 @@ p {
   width: 60%;
 }
 
+.contents-wrapper > div > i > b {
+  color: #f05033;
+}
+
 .skill-wrapper {
   margin-top: 20px;
 }
@@ -212,4 +216,12 @@ p {
 #redux:hover {
   transition: all 0.3s;
   background: #a357fa;
+}
+
+footer {
+  margin-bottom: 50px;
+}
+
+footer > i {
+  color: rgba(0, 0, 0, 0.3);
 }
